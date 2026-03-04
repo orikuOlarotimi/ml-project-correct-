@@ -53,7 +53,7 @@
 #     return vector_store
 #
 #
-# def llmm():
+# def llm():
 #     llm = ChatGoogleGenerativeAI(
 #         model="gemini-1.5-flash",
 #         temperature=0
@@ -62,7 +62,3 @@
 #
 # if __name__ == "__main__":
 #     print("")
-
-
-import tensorflow as tf
-print("TensorFlow version:", tf.__version__)
