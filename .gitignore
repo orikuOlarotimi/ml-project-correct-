@@ -31,3 +31,5 @@ __pycache__/
 
 # == Logs and Temporary Data ==
 *.log
+
+main.py
