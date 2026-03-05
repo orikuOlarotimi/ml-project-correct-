@@ -134,6 +134,7 @@ curl -X POST http://localhost:5000/predict \
 - The model was trained using **MobileNetV2** with transfer learning on a plant disease dataset.
 - `train_model.py` contains the full training pipeline (currently commented out — the pre-trained `.h5` model is included so you don't need to retrain).
 - Uploaded images are saved temporarily and deleted after prediction.
+- please for this backend to work with the frontend use a server for hosting either a remote or use a local server like ngrok 
 
 ---
 
